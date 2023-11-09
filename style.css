@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.EjereciciosnivelIntermedio{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.InteraccionconelDOM{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+
+/* ejercicio 1*/
+.ej1{
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.imagenes {
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+.imt{
+    width: 500px;
+}
+.imgNoVisible {
+
+}
+
+.flechas{
+    width: 100px;
+    padding: 30px;
+    display: flex;
+    margin-top: 360px;
+    margin-left: -320px;
+   
+   
+}
+.flechas .flechaLeft {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    padding: 2px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+.flechas .flechaRight {
+    width: 50px;
+    height: 50px;
+    font-size: 40px;
+    padding: 2px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+    
+.visible {
+    display: hidden;
+}
+
+.noVisible {
+    display: none;
+}
+
+
+/* ejercicio 2*/
+.ej2{
+    margin-top: 200px;
+}
+
+.ej2 .parrafo{
+    margin-top: 30px;
+}
+.parrafo{
+    font-size: 20px;
+   
+}
+
+.parrafoAgrandado {
+    font-size: 50px;
+}
+
+.btn {
+    margin: 20px;
+    cursor: pointer;
+}
+
+/* ejercicio 3*/
+
+.ej3{
+    margin-top: 40px;
+}
+.caja {
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 30px;
+    display:list-item;
+    justify-content: center;
+    
+}
+.caja h2{
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+.caja p {
+    margin-top: 5px;
+    margin-left: 55px;
+    font-size: 10px;
+}
+
+.caja .promo {
+    display:none
+}
+
+.btn2{
+   margin-top: 20px;
+   margin-left: 52px;
+   font-size: 10px;
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    padding: 7px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.caja .img {
+    display: none;
+}
+
+
+/*lo que pasa cuado esta click*/
+.cajaAgrandada{
+    width: 500px;
+    height: 500px;
+
+
+}
+
+.cajaAgrandada h2{
+    margin-top: 20px;
+}
+
+.cajaAgrandada p {
+    font-size: 20px;
+    margin-left: 155px;
+}
+
+
+.btn2CajaAgrandada{
+width: 60px;
+margin-top: 60px;
+margin-left: 440px;
+}
+
+.imgCajaAgrandada {
+    display: hidden;
+    width: 10px;
+    height: 10px;
+}
+
+.imgCajaAgrandada .im{
+   margin-top: 50px;
+   margin-left: 80px;
+    width: 350px;
+}
+
+.promoCajaAgrandada {
+    font-size: 2000px;
+    margin-top: 300px;
+    margin-left: -20px;
+}
+.btn2CajaAgrandada :hover {
+
+    background-color: brown;
+}
+
+
